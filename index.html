@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ndari & Rizqi Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Countdown -->
+    <link rel="stylesheet" href="Countdown/simplyCountdown.theme.default.css"/>
+    <script src="Countdown/simplyCountdown.min.js"></script>
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">     
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Yth. Bapak/Ibu/Saudara/i, <br><span style="line-height: 2; background-color: rgba(255, 255, 255, 0.5); padding: 5px 10px; border-radius: 5px;"></span></h4>
+            <p>Mohon maaf bila ada kesalahan dalam penulisan nama/gelar</p>
+            <h1>Ndari & Rizqi</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown"></div>          
+            <a href="#home" class="btn btn-lg mt-4 btn-small" onclick="enableScroll()">Buka Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">N&R</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">N&R</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Bismillahirrahmanirrohim <br> Assalamu'alaikum Warahmatullahi Wabarakatuh <br> Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan. <br> Yaa Allah, mohon Engkau berkenan meridhoi pernikahan putra-putri kami pada:</h3>
+            <h2 id="Tanggal">Minggu, 23 Juni 2024</h2>
+            <h3>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i untuk hadir pada acara pernikahan kami</h3>
+          </div>
+          <div class="row couple">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-8 text-end">
+                  <h4>Rizqi Yohana Putra</h4>
+                  <p>Putra Bapak Ngadiman dan Ibu Muji Lestari</p>
+                  <p>Waras RT 03 RW 32 Sariharjo Ngaglik Sleman Yogyakarta</p>
+                </div>
+                <div class="col-4">
+                  <img src="img/rizqi.jpeg" alt="Rizki" class="img-responsive rounded-circle">
+                </div>
+              </div>
+            </div>
+            <span class="heart">
+              <i class="bi bi-heart-fill"></i>
+            </span>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-4">
+                  <img src="img/ndari.jpeg" alt="Rizki" class="img-responsive rounded-circle">
+                </div>
+                <div class="col-8">
+                  <h4>Rr Prabandari Sekar Srikaton</h4>
+                  <p>Putri Bapak Praptono dan Ibu Rr. Sri Mulati</p>
+                  <p>Kasihan, RT 05, Tamantirto, Kasihan Bantul</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Gedung Sidomukti, Jl. Nogosari Kidul No. 9 Kelurahan Kadipaten Kecamatan Kraton Yogyakarta</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.805693143318!2d110.3570209!3d-7.810383099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57930d7ec3c1%3A0x4ddb8d63788c8133!2sGEDUNG%20SIDO%20MUKTI!5e0!3m2!1sen!2sid!4v1718024194654!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://maps.app.goo.gl/Nvc3T1QG9PNCDYQ47" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+            <!-- <p class="description">Dengan Tidak Mengurangi Rasa Hormat, Kami Mohon Agar Doa Restu Bapak/ Ibu/ Saudara Disampaikan di Gedung Sidomukti</p> -->
+          </div>
+
+          <div class="row justify-content-center mt-4">
+            <div class="col-md-5 col-10">
+              <div class="card text-center text-bg-light mb-5">
+                <div class="card-header">
+                  Akad Nikah
+                </div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <i class="bi bi-clock d-block"></i>
+                      <span>10.00 - Selesai</span>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="bi bi-calendar d-block"></i>
+                      <span>Minggu, 23 Juni 2024</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  Dengan Tidak Mengurangi Rasa Hormat, Kami Mohon Agar Doa Restu Bapak/ Ibu/ Saudara Disampaikan di Gedung Sidomukti
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 col-10">
+              <div class="card text-center text-bg-light">
+                <div class="card-header">
+                  Resepsi
+                </div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <i class="bi bi-clock d-block"></i>
+                      <span>13.00 - 14.00</span> <br>
+                      <span>14.00 - 15.00</span>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="bi bi-calendar d-block"></i>
+                      <span>Minggu, 23 Juni 2024</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  Dengan Tidak Mengurangi Rasa Hormat, Kami Mohon Agar Doa Restu Bapak/ Ibu/ Saudara Disampaikan di Gedung Sidomukti
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran</p>
+          </div>
+        </div>
+      </div>
+      <form class="row row-cols-lg-auto g-3 align-items-center justify-content-center" method="POST" 
+      action="https://script.google.com/macros/s/AKfycbzvsrU670fIEUNcnvNuNTLH0tejsu_rkwm84xN3RmNj78lKnsHTdx4qYQDrEXK5QjcPZw/exec" id="my-form">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" name="Nama">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="jumlah" class="form-label">Jumlah</label>
+            <input type="number" class="form-control" id="jumlah" name="Jumlah" min="1" length="1" value="1">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="status" class="form-label">Konfirmasi</label>
+            <select name="Status" id="status" class="form-select">
+              <option selected>Pilih salah satu</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak Hadir">Tidak Hadir</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-12" style="margin-top: 36px;">
+          <button class="btn btn-primary">Kirim</button>
+        </div>
+      </form>
+    </section>
+    <section id="terimakasih" class="terimakasih">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <br>
+            <br>
+            <p>Yaa Allah, andai semua ini layak bagi kami, maka cukupkanlah permohonan kami dengan ridho-Mu, jadikanlah kami sebagai suami-istri yang saling mencintai, saling menjaga kehormatan, saling mendo'akan dalam kebaikan dan ketaqwaan, dan saling menyempurnakan dalam Ibadah kepada-Mu. Yaa Allah, sempurnakan kebahagiaan kami dengan menjadikan pernikahan kami ini sebagai ibadah kepada-Mu dan bukti cinta kami pada Rasul-Mu.<br></p>
+            <p>Atas kehadiran dan doa restu Bapak/Ibu/Saudara/i, kami ucapkan terima kasih. <br><br> Kami yang berbahagia, <br></p>
+            <h2>Ndari <br> & <br> Rizqi</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2024 N&R Wedding. All Rights Reserved.</small>
+            <small class="block">Made by <a href="https://www.instagram.com/magenta_craftdesign?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@magenta</a></small>
+            <ul class="mt-3">
+              <li><a href="https://www.instagram.com/magenta_craftdesign?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/rositamagentajogja?mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="https://www.tiktok.com/@magentaproject" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+              <li><a href="https://wa.me/6287838380061" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/Yovie & Nuno - Janji Suci (Video Clip).mp3" type="audio/mp3">
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2024, // required
+            month: 6, // required
+            day: 23, // required
+            hours: 10, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+            plural: true,
+            inline: false,
+            enableUtc: true,
+            onEnd: function() { return; }, // Callback on countdown end
+            refresh: 1000, // default refresh every 1s
+            sectionClass: 'simply-section',
+            amountClass: 'simply-amount',
+            wordClass: 'simply-word',
+            zeroPad: false,
+            countUp: false
+        })
+    </script>
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper')
+      const audioIcon = document.querySelector('.audio-icon-wrapper i')
+      let isPlaying = false;
+      const song = document.querySelector('#song');
+
+      function enableScroll() {
+        window.onscroll = function() {
+        rootElement.style.scrollBehavior = 'smooth';
+        playAudio();
+        }
+      }
+
+      function playAudio() {
+        song.volume = 0.5;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+        isPlaying = true;
+        }
+
+      audioIconWrapper.onclick = function() {
+        if(isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc')
+          audioIcon.classList.add('bi-pause-circle')
+          } else {
+            song.play()
+            audioIcon.classList.add('bi-disc')
+            audioIcon.classList.remove('bi-pause-circle')
+        }
+        isPlaying = !isPlaying;
+      }
+    </script>
+    <script>
+      window.addEventListener("load", function() {
+        // Penanganan form submission
+        const form = document.getElementById('my-form');
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+    
+          fetch(action, {
+            method: 'POST',
+            body: data,
+          })
+          .then(response => response.json())
+          .then((responseJson) => {
+            if (responseJson.result === "success") {
+              alert("Konfirmasi Kehadiran Berhasil Terkirim!");
+            } else if (responseJson.result === "duplicate") {
+              alert("Nama sudah terdaftar.");
+            } else {
+              alert("Terjadi kesalahan. Coba lagi.");
+            }
+          })
+          .catch((error) => {
+            console.error('Error:', error);
+            alert("Terjadi kesalahan. Coba lagi.");
+          });
+        });
+    
+        // Mendapatkan nama dari URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('nama');
+    
+        if (nama) {
+          // Mengisi nama pada elemen tertentu di halaman
+          const namaContainer = document.querySelector('.hero h4 span');
+          if (namaContainer) {
+            namaContainer.innerText = nama;
+          }
+    
+          // Mengisi nama pada form input
+          const namaInput = document.querySelector('#nama');
+          if (namaInput) {
+            namaInput.value = nama;
+          }
+        }
+      });
+    </script>  
+  </body>
+</html>
